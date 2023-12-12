@@ -1,0 +1,50 @@
+
+
+header{
+    background-image: url("./img/Untitled-11.jpg");
+    width: 100%;
+    height: 30vh;
+}
+
+.separetor{
+    width: 100%;
+    height: 25px;
+    background-color: brown;
+    /* border-style: solid; */
+    margin: 1px;
+}
+.col-md-4{
+    background-color: antiquewhite;
+    height: 650px;
+}
+.col-6 p,
+.col-md-8 p{
+width: 33vw;
+margin-left: 10vw;
+margin-top: 3vh;
+}
+.larg_img{
+    border-style: solid;
+    width: 30vw;
+    height: 55vh;
+    border-color: rgb(119, 119, 112);
+    margin-left: 10vw;
+}
+
+input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .form-select {
+    width: 20vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    
+  }
+  form{
+    margin-top: 2vh;
+    width: 30vw;
+  }
