@@ -48,3 +48,61 @@ input {
     margin-top: 2vh;
     width: 30vw;
   }
+  /* ==================================================================== */
+  /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  margin-top: 16%;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #d3d2c1;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #fff
+  ;
+  width: 70%;
+ 
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+/* ======================================================= */
+
+
+
+select{
+  border:none;
+  padding: 20px 120px;
+  border-radius:5px;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 800px;
+}
+
+select:focus{
+  outline:none;
+}
