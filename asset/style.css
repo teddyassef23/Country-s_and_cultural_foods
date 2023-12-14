@@ -6,7 +6,7 @@ header{
     height: 30vh;
 }
 
-.separetor{
+.separator{
     width: 100%;
     height: 25px;
     background-color: brown;
@@ -22,6 +22,8 @@ header{
 width: 33vw;
 margin-left: 10vw;
 margin-top: 3vh;
+display: flex;
+justify-content: center;
 }
 .larg_img{
     border-style: solid;
