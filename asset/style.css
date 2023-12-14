@@ -50,3 +50,13 @@ input {
     margin-top: 2vh;
     width: 30vw;
   }
+  .panel-wrapper {
+    display:flex;
+    width: 100vw;
+    height: 80vh;
+  }
+
+  .panel{
+    width: 50%
+    
+  }
