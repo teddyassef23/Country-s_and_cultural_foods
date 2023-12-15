@@ -58,13 +58,17 @@ input {
     height: 140vh;
   }
 
+  .box{
+    width: 30vw;
+  }
+
   .panel{
     padding: 50px;
     
   }
 
   .right{
-    width: 60%;
+    width: 50%;
   
   }
 
