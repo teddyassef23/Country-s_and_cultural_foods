@@ -1,4 +1,4 @@
-
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600display=swap');
 
 header{
     background-image: url("./img/Untitled-11.jpg");
@@ -179,3 +179,67 @@ select:focus{
       display: flex;
       justify-content: center;
       align-items: center;}
+
+    /* ========================================= */
+
+   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-mainu{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 10vh;
+  background: #f1f4fd;
+}
+.container{
+  max-width: 60vw;
+  width: 95%;
+}
+
+.slider-wrapper .image-list {
+  display: grid;
+  gap: 18px;
+  font-size: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+/* .slider-wrapper .image-list::-webkit-scrollbar{
+  display: none;
+} */
+
+.slider-wrapper .image-list .image-itme {
+  width: 42vw;
+  height: 14vh;
+  object-fit: cover;
+}
+.image-itme{
+  width: 42vw;
+}
+/* ============================================ */
+.countries{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.elements{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/* ================================= */
+.data{
+  align-items:flex-start;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.caption{
+  align-items: flex-end;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
