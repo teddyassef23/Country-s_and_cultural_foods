@@ -15,7 +15,7 @@ header{
 }
 .col-md-4{
     background-color: antiquewhite;
-    height: 650px;
+    height: 100%;
     width: 40%;
     
 }
@@ -55,7 +55,7 @@ input {
   .panel-wrapper {
     display:flex;
     width: 100vw;
-    height: 80vh;
+    height: 140vh;
   }
 
   .panel{
@@ -65,16 +65,27 @@ input {
 
   .right{
     width: 60%;
+  
   }
 
-  .examplefood{
-    display:inline-block
-  }
+ .examplefood {
+  padding: 1%;
+ }
 
   .is-96by96{
     display: inline-block;
   }
-
   .button{
-    top:50%;
+    width: 3%;
+    height: 100%;
   }
+
+  .smaller{
+    display: inline-block;
+    width: 16%;
+  }
+
+  .vertical-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;}
