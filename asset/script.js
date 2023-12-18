@@ -27,6 +27,27 @@ fetch(countryApi)
 
 });
 
+$(document).ready(function(){
+  $('.img-container .slides > img').click(function(){
+      var $smallImages = $(this).attr('src');
+      var $biger = $('.big-screen > img').attr('src');
+      var id = $(this).attr("id");
+         
+      
+      // $('#1'). attr('src', '/images/new-logo. jpg'); 
+      $('#0').attr('src', $smallImages);
+      $(this).attr('src', $biger);
+      
+      console.log("Small IMG ser :" + $smallImages);
+      // console.log("Small BIG ID :" + id);
+      console.log("Small BIG src :" + $biger);
+
+  });
+});
+
+
+
+
 
 var fullApiCountery = "https://api.api-ninjas.com/v1/country?name=United State" + "&X-Api-Key=" + apikey_counter;
 fetch(fullApiCountery)
@@ -149,3 +170,6 @@ country.addEventListener("change", (event) =>{
 elements.onclick = function(event){
   console.log(event.target.id);
 }
+
+
+
